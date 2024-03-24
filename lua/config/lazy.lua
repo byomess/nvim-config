@@ -35,6 +35,15 @@ require("lazy").setup({
     { "getomni/neovim" },
 
     -- Configure LazyVim to load gruvbox
+
+    -- {
+    --   "xthreme",
+    --   config = function()
+    --     vim.cmd("colorscheme xthreme")
+    --   end,
+    --   dir = vim.fn.stdpath("config") .. "colors",
+    -- },
+
     {
       "LazyVim/LazyVim",
       opts = {
